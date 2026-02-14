@@ -9,10 +9,18 @@ int main(){
             do{
                  printf("veullez saisr un entier negatif:");
         scanf("%d", &x);
-            }while(
+            }while(x>0);
+            if(x%2==0){
+                somme+=x;
+                cpt=++;
+            }
 
-        printf("le nombre que tu as saisi est %d ")
+
       }
+      moy=som/cpt;
+      printf("la moyenne des nomnre pair est :%f",moy);
+      nbr=nbr+x;
+      printf("le nombre des est :%d",nbr);
 
 
 
